@@ -16,8 +16,8 @@ const getAll = (request, response)=>{
 }
 
 const addArt = (request, response)=>{
-    const artDoBody = request.body //pegando o body que o usuario digitou
-    const artesa = new artCollection(artDoBody)//criando um novo dado com o body
+    const artDoBody = request.body 
+    const artesa = new artCollection(artDoBody)
 
     artesa.save((error)=>{
         if(error){
@@ -86,21 +86,6 @@ const atualizarArt = (request, response) =>{
         
 }
 
-const atualizaTelefoneContato = (request, response) => {
-    const id = request.params.id
-    const celular = request.body.celular
-
-    contatoCollection.findByIdAndUpdate(id, { "celular": celular }, (error, contato) => {
-        if(error)
-            return response.status(500).send(error)
-        if(contato.length < 1)
-            return response.status(404).send({"mensagem": "Contato não existe. :("})
-        return response.status(200).send({
-            mensagem: "Telefone atualizado.",
-            contato
-        })
-    })
-}
 
 module.exports = {
     getAll,
@@ -108,6 +93,5 @@ module.exports = {
     getArtPorNome,
     getArtPorId,
     deleteArtPorId,
-    atualizarArt,
-    atualizaTelefoneContato
+    atualizarArt
 }
