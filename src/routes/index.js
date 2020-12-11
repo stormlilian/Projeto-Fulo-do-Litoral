@@ -3,7 +3,7 @@ const router = express.Router()
 
 router.get("/", function(request, response){
     response.status(200).send({
-        titulo: "Cadastro de artesãos - Reprograma",
+        titulo: "Cadastro de artesãos - Projeto final Reprograma",
         version: "1.0.0"
     })
 })
