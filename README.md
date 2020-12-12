@@ -50,16 +50,16 @@ https://artesa-reprograma.herokuapp.com/artesaos/criar/
 #### Listar todos artesãos
 https://artesa-reprograma.herokuapp.com/artesaos/
 
-####Atualizar artesão
+#### Atualizar artesão
 https://artesa-reprograma.herokuapp.com/artesaos/atualizar/{id}
 
-{
-      "_id": "5fd40a9e677c50001785e485",
-      "nome": "Maria Valdenice",
-      "email": "val@gmail.com",
-      "artesanato": "Coco",
-      "cidade": "Maracanau",
-      "estado": "CE"
+{ <br>
+      "_id": "5fd40a9e677c50001785e485", <br>
+      "nome": "Maria Valdenice", <br>
+      "email": "val@gmail.com", <br>
+      "artesanato": "Coco", <br>
+      "cidade": "Maracanau", <br>
+      "estado": "CE" <br>
 }
 
 
