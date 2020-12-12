@@ -21,16 +21,16 @@ Body-parser
 
 ### Rotas API
 
-#### busca artesão por id
+#### Busca artesão por id
 https://artesa-reprograma.herokuapp.com/artesaos/id?id=5fd2f4bde17ec2001716d264
 
-#### buscar artesão por estado
+#### Buscar artesão por estado
 https://artesa-reprograma.herokuapp.com/artesaos/estado/?estado=Ceara
 
-#### buscar artesão por artesanato
+#### Buscar artesão por artesanato
 https://artesa-reprograma.herokuapp.com/artesaos/arte/?artesanato=Renda
 
-#### buscar artesão por cidade
+#### Buscar artesão por cidade
 https://artesa-reprograma.herokuapp.com/artesaos/cidade/?cidade=Fortaleza
 
 #### Deletar um artesão
