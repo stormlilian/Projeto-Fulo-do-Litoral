@@ -21,36 +21,36 @@ Body-parser
 
 ### Rotas API
 
-#### Busca artesão por id
+ Busca artesão por id <br>
 https://artesa-reprograma.herokuapp.com/artesaos/id?id=5fd2f4bde17ec2001716d264
 
-#### Buscar artesão por estado
+ Buscar artesão por estado <br>
 https://artesa-reprograma.herokuapp.com/artesaos/estado/?estado=Ceara
 
-#### Buscar artesão por artesanato
+ Buscar artesão por artesanato <br>
 https://artesa-reprograma.herokuapp.com/artesaos/arte/?artesanato=Renda
 
-#### Buscar artesão por cidade
+ Buscar artesão por cidade <br>
 https://artesa-reprograma.herokuapp.com/artesaos/cidade/?cidade=Fortaleza
 
-#### Deletar um artesão
+ Deletar um artesão <br>
 https://artesa-reprograma.herokuapp.com/artesaos/deletar?id=5fd40838424e2b435afc1bd2
 
-#### Cadastrar artesão
+ Cadastrar artesão <br>
 https://artesa-reprograma.herokuapp.com/artesaos/criar/
 
-{
-"nome": "Maria Valdenice",
-"email":"le@gmail.com",
-"artesanato": "teste",
-"cidade": "Fortaleza",
-"estado": "BA"
+{ <br>
+"nome": "Maria Valdenice", <br>
+"email":"le@gmail.com", <br>
+"artesanato": "teste", <br>
+"cidade": "Fortaleza", <br>
+"estado": "BA" <br>
 }
 
-#### Listar todos artesãos
+ Listar todos artesãos <br>
 https://artesa-reprograma.herokuapp.com/artesaos/
 
-#### Atualizar artesão
+ Atualizar artesão <br>
 https://artesa-reprograma.herokuapp.com/artesaos/atualizar/{id}
 
 { <br>
