@@ -43,6 +43,7 @@ https://artesa-reprograma.herokuapp.com/artesaos/deletar?id=5fd40838424e2b435afc
  Cadastrar artesão <br>
 https://artesa-reprograma.herokuapp.com/artesaos/criar/
 
+```bash
 { <br>
 "nome": "Maria Valdenice", <br>
 "email":"le@gmail.com", <br>
@@ -50,6 +51,8 @@ https://artesa-reprograma.herokuapp.com/artesaos/criar/
 "cidade": "Fortaleza", <br>
 "estado": "BA" <br>
 }
+```
+
 
  Listar todos artesãos <br>
 https://artesa-reprograma.herokuapp.com/artesaos/
@@ -57,6 +60,7 @@ https://artesa-reprograma.herokuapp.com/artesaos/
  Atualizar artesão <br>
 https://artesa-reprograma.herokuapp.com/artesaos/atualizar/{id}
 
+```bash
 { <br>
       "_id": "5fd40a9e677c50001785e485", <br>
       "nome": "Maria Valdenice", <br>
@@ -65,7 +69,7 @@ https://artesa-reprograma.herokuapp.com/artesaos/atualizar/{id}
       "cidade": "Maracanau", <br>
       "estado": "CE" <br>
 }
-
+```
 
 
 ### Rodando o projeto Back End no seu computador:
