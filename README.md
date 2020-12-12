@@ -44,12 +44,12 @@ https://artesa-reprograma.herokuapp.com/artesaos/deletar?id=5fd40838424e2b435afc
 https://artesa-reprograma.herokuapp.com/artesaos/criar/
 
 ```bash
-{ <br>
-"nome": "Maria Valdenice", <br>
-"email":"le@gmail.com", <br>
-"artesanato": "teste", <br>
-"cidade": "Fortaleza", <br>
-"estado": "BA" <br>
+{ 
+"nome": "Maria Valdenice", 
+"email":"le@gmail.com", 
+"artesanato": "teste", 
+"cidade": "Fortaleza", 
+"estado": "BA" 
 }
 ```
 
@@ -61,13 +61,13 @@ https://artesa-reprograma.herokuapp.com/artesaos/
 https://artesa-reprograma.herokuapp.com/artesaos/atualizar/{id}
 
 ```bash
-{ <br>
-      "_id": "5fd40a9e677c50001785e485", <br>
-      "nome": "Maria Valdenice", <br>
-      "email": "val@gmail.com", <br>
-      "artesanato": "Coco", <br>
-      "cidade": "Maracanau", <br>
-      "estado": "CE" <br>
+{ 
+      "_id": "5fd40a9e677c50001785e485", 
+      "nome": "Maria Valdenice", 
+      "email": "val@gmail.com", 
+      "artesanato": "Coco", 
+      "cidade": "Maracanau", 
+      "estado": "CE" 
 }
 ```
 
