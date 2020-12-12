@@ -25,22 +25,29 @@ Body-parser
 
 ### Rotas API
 
+
  Busca artesão por id <br>
+ Método GET: 
 https://artesa-reprograma.herokuapp.com/artesaos/id?id=5fd2f4bde17ec2001716d264
 
  Buscar artesão por estado <br>
-https://artesa-reprograma.herokuapp.com/artesaos/estado/?estado=Ceara
+ Método GET: 
+https://artesa-reprograma.herokuapp.com/artesaos/estado/?estado=CE
 
  Buscar artesão por artesanato <br>
+ Método GET: 
 https://artesa-reprograma.herokuapp.com/artesaos/arte/?artesanato=Renda
 
  Buscar artesão por cidade <br>
+ Método GET: 
 https://artesa-reprograma.herokuapp.com/artesaos/cidade/?cidade=Fortaleza
 
  Deletar um artesão <br>
+ Método DELETE: 
 https://artesa-reprograma.herokuapp.com/artesaos/deletar?id=5fd40838424e2b435afc1bd2
 
  Cadastrar artesão <br>
+ Método POST: 
 https://artesa-reprograma.herokuapp.com/artesaos/criar/
 
 ```bash
@@ -55,9 +62,11 @@ https://artesa-reprograma.herokuapp.com/artesaos/criar/
 
 
  Listar todos artesãos <br>
+ Método GET: 
 https://artesa-reprograma.herokuapp.com/artesaos/
 
  Atualizar artesão <br>
+ Método PUT: 
 https://artesa-reprograma.herokuapp.com/artesaos/atualizar/{id}
 
 ```bash
