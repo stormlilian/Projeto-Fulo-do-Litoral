@@ -19,6 +19,50 @@ Express <br>
 Cors <br>
 Body-parser
 
+### Rotas API
+
+#### busca artesão por id
+https://artesa-reprograma.herokuapp.com/artesaos/id?id=5fd2f4bde17ec2001716d264
+
+#### buscar artesão por estado
+https://artesa-reprograma.herokuapp.com/artesaos/estado/?estado=Ceara
+
+#### buscar artesão por artesanato
+https://artesa-reprograma.herokuapp.com/artesaos/arte/?artesanato=Renda
+
+#### buscar artesão por cidade
+https://artesa-reprograma.herokuapp.com/artesaos/cidade/?cidade=Fortaleza
+
+#### Deletar um artesão
+https://artesa-reprograma.herokuapp.com/artesaos/deletar?id=5fd40838424e2b435afc1bd2
+
+#### Cadastrar artesão
+https://artesa-reprograma.herokuapp.com/artesaos/criar/
+
+{
+"nome": "Maria Valdenice",
+"email":"le@gmail.com",
+"artesanato": "teste",
+"cidade": "Fortaleza",
+"estado": "BA"
+}
+
+#### Listar todos artesãos
+https://artesa-reprograma.herokuapp.com/artesaos/
+
+####Atualizar artesão
+https://artesa-reprograma.herokuapp.com/artesaos/atualizar/{id}
+
+{
+      "_id": "5fd40a9e677c50001785e485",
+      "nome": "Maria Valdenice",
+      "email": "val@gmail.com",
+      "artesanato": "Coco",
+      "cidade": "Maracanau",
+      "estado": "CE"
+}
+
+
 
 ### Rodando o projeto Back End no seu computador:
 
