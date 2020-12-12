@@ -12,12 +12,12 @@ Banco de dados: [MongoDB](https://www.mongodb.com/1) <br>
 Infraestrutura: [Heroku](https://www.heroku.com/) <br>
 
 ### Dependencias que auxiliaram durante o desenvolvimento:
-npm <br>
+Npm <br>
 Nodemon <br>
 Mongoose <br>
-express <br>
-cors <br>
-body-parser
+Express <br>
+Cors <br>
+Body-parser
 
 
 ### Rodando o projeto Back End no seu computador:
