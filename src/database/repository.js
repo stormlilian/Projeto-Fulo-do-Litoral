@@ -11,5 +11,3 @@ const connect = ()=>{
 }
 
 module.exports = { connect }
-
-//arquivo Repository CRIA a Conexão com nossa Banco de Dados, nesse caso o MongoDB

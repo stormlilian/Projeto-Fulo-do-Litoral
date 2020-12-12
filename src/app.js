@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const cors = require("cors")
-const db = require('./models/repository')
+const db = require('./database/repository')
 
 
 db.connect()

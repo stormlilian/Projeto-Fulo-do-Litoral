@@ -34,10 +34,70 @@ const addArt = (request, response)=>{
 const getArtPorNome = (request, response)=>{
     const nome = request.query.nome
     artCollection.find({ "nome": nome }, (error, artesa) => {
-        return response.status(200).send({
-            mensagem: "GET com sucesso",
-            artesa
-        })
+        if(artesa.length){
+            return response.status(200).send({
+                mensagem: "GET com sucesso",
+                artesa
+            })
+        }else{
+            return response.status(400).send({
+                mensagem: "Artesão não encontrado com esse nome"
+            })
+        }
+    })
+    
+}
+
+const getArtPorEstado = (request, response)=>{
+    const estado = request.query.estado
+    artCollection.find({ "estado": estado }, (error, artesa) => {
+        if(artesa.length){
+            return response.status(200).send({
+                mensagem: "GET com sucesso",
+                artesa
+            })
+        }else {
+            return response.status(400).send({
+                mensagem: "Artesão não encontrado nesse estado"
+            })
+        }
+        
+    })
+    
+}
+
+const getArtPorCidade = (request, response)=>{
+    const cidade = request.query.cidade
+    artCollection.find({ "cidade": cidade }, (error, artesa) => {
+        if(artesa.length){
+            return response.status(200).send({
+                mensagem: "GET com sucesso",
+                artesa
+            })
+        }else {
+            return response.status(400).send({
+                mensagem: "Artesão não encontrado nessa cidade"
+            })
+        }
+        
+    })
+    
+}
+
+const getArtPorArtesanato = (request, response)=>{
+    const artesanato = request.query.artesanato
+    artCollection.find({ "artesanato": artesanato }, (error, artesa) => {
+        if(artesa.length){
+            return response.status(200).send({
+                mensagem: "GET com sucesso",
+                artesa
+            })
+        }else {
+            return response.status(400).send({
+                mensagem: "Artesão para esse tipo de artesanato não encontrado"
+            })
+        }
+        
     })
     
 }
@@ -56,12 +116,12 @@ const deleteArtPorId = (request, response) =>{
     const id =request.query.id
     artCollection.findByIdAndDelete(id, (error) => {
         if(error){
-        return response.status(400).send(error)
-    }else{
-        return response.status(200).send({
-            mensagem: "Deletado com sucesso",
-            
-        })
+            return response.status(400).send(error)
+        }else{
+            return response.status(200).send({
+                mensagem: "Deletado com sucesso",
+                
+            })
     }
 
     })
@@ -93,5 +153,8 @@ module.exports = {
     getArtPorNome,
     getArtPorId,
     deleteArtPorId,
-    atualizarArt
+    atualizarArt,
+    getArtPorEstado,
+    getArtPorCidade,
+    getArtPorArtesanato
 }
