@@ -1,5 +1,7 @@
 ## REST API com CRUD, NODE.js e MongoDB
 
+https://github.com/stormlilian/Projeto-final-Reprograma/blob/master/src/arquitetura.png?raw=true
+
 ### Descrição:
 Projeto desenvolvido para conclusão do bootcamp backend [{Reprograma}](https://reprograma.com.br/) e [XP.inc](https://www.xpinc.com/) com objetivo de mapear e aproximar artesãs e artesãos de cada região, facilitar a interação e a organização de associações, feiras e festivais de artesanato e fortalecimento da cultura criativa.
 
